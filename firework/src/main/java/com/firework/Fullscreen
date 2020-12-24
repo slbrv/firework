@@ -1,0 +1,4 @@
+requestWindowFeature(Window.FEATURE_NO_TITLE);
+getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
+getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+setVolumeControlStream(AudioManager.STREAM_MUSIC);//Установка зависимости звука игры от звука телефона
